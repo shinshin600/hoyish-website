@@ -1,3 +1,4 @@
+/* === הגדרות כלליות === */
 body {
   font-family: 'Assistant', sans-serif;
   direction: rtl;
@@ -17,6 +18,7 @@ a {
   text-decoration: none;
 }
 
+/* === hero עם רקע === */
 .hero {
   background-size: cover;
   background-position: center;
@@ -50,7 +52,7 @@ a {
   margin-right: 10px;
 }
 
-
+/* === שירותים === */
 section {
   padding: 60px 20px;
   max-width: 900px;
@@ -61,6 +63,7 @@ section {
   margin-bottom: 30px;
 }
 
+/* === המלצות === */
 .testimonials blockquote {
   background-color: #FBEDED;
   border-right: 4px solid #F49FB6;
@@ -69,6 +72,12 @@ section {
   border-radius: 6px;
 }
 
+/* === צור קשר === */
+.contact a {
+  font-weight: bold;
+}
+
+/* === footer === */
 footer {
   background-color: #F2F2F2;
   text-align: center;
@@ -76,6 +85,7 @@ footer {
   font-size: 14px;
 }
 
+/* === עמוד אודות === */
 .page-header {
   background-color: #FBEDED;
   padding: 40px;
@@ -92,19 +102,22 @@ footer {
   display: flex;
   justify-content: center;
   padding: 60px 20px;
+  background-color: #FFF5F6;
 }
 
 .about-box {
-  background-color: #FFF8F9;
-  padding: 40px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-  max-width: 750px;
+  background-color: #FFFFFF;
+  padding: 50px;
+  border-radius: 16px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  max-width: 720px;
+  width: 100%;
   font-size: 18px;
   line-height: 1.9;
   color: #3C3C3C;
 }
 
 .about-box p {
-  margin-bottom: 20px;
+  margin-bottom: 24px;
+  text-align: justify;
 }
