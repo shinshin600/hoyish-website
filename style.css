@@ -210,3 +210,24 @@ footer {
   color: #555;
   font-size: 14px;
 }
+
+.gallery {
+  padding: 60px 20px;
+  background-color: #fff8f9;
+  text-align: center;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  object-fit: cover;
+}
