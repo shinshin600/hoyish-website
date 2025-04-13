@@ -231,3 +231,8 @@ footer {
   box-shadow: 0 4px 12px rgba(0,0,0,0.05);
   object-fit: cover;
 }
+
+nav ul li a.active {
+  text-decoration: underline;
+  color: #a34c5f;
+}
