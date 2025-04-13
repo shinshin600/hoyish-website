@@ -109,13 +109,15 @@ footer {
   background-color: #FFFFFF;
   padding: 50px;
   border-radius: 16px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.08);
+  border: 1px solid #EADFE3;
   max-width: 720px;
   width: 100%;
   font-size: 18px;
   line-height: 1.9;
   color: #3C3C3C;
 }
+
 
 .about-box p {
   margin-bottom: 24px;
