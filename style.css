@@ -1,28 +1,35 @@
 body {
-  font-family: "Arial", sans-serif;
+  font-family: 'Assistant', sans-serif;
   direction: rtl;
   text-align: right;
-  background-color: #fff8f6;
-  color: #333;
+  background-color: #FDFBF8;
+  color: #3C3C3C;
   margin: 0;
   padding: 0;
 }
 
 header {
-  background-color: #f8cdd0;
+  background-color: #FBEDED;
   padding: 40px;
   text-align: center;
 }
 
-h1 {
+.logo {
+  max-width: 120px;
   margin-bottom: 10px;
+}
+
+h1 {
+  color: #8D5668;
+  font-size: 36px;
+  margin: 10px 0;
 }
 
 .cta {
   display: inline-block;
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #d45d79;
+  background-color: #8D5668;
   color: white;
   text-decoration: none;
   border-radius: 6px;
@@ -30,7 +37,15 @@ h1 {
 
 .services {
   padding: 40px 20px;
-  background-color: #fff;
+  background-color: #FFFFFF;
+}
+
+.services h2 {
+  color: #8D5668;
+  font-size: 28px;
+  border-bottom: 2px solid #F49FB6;
+  padding-bottom: 10px;
+  margin-bottom: 30px;
 }
 
 .service {
@@ -38,7 +53,8 @@ h1 {
 }
 
 footer {
-  background-color: #f0f0f0;
+  background-color: #F2F2F2;
   text-align: center;
   padding: 20px;
+  margin-top: 40px;
 }
