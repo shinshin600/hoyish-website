@@ -8,53 +8,64 @@ body {
   padding: 0;
 }
 
-header {
-  background-color: #FBEDED;
-  padding: 40px;
-  text-align: center;
-}
-
-.logo {
-  max-width: 120px;
-  margin-bottom: 10px;
-}
-
-h1 {
+h1, h2, h3 {
   color: #8D5668;
-  font-size: 36px;
-  margin: 10px 0;
+}
+
+a {
+  color: #8D5668;
+  text-decoration: none;
+}
+
+.hero {
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.overlay {
+  background: rgba(255, 255, 255, 0.85);
+  padding: 40px;
+  border-radius: 12px;
+  text-align: center;
+  max-width: 600px;
 }
 
 .cta {
-  display: inline-block;
-  margin-top: 20px;
-  padding: 10px 20px;
   background-color: #8D5668;
   color: white;
-  text-decoration: none;
-  border-radius: 6px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  margin-top: 20px;
+  display: inline-block;
+  font-weight: bold;
 }
 
-.services {
-  padding: 40px 20px;
-  background-color: #FFFFFF;
-}
-
-.services h2 {
-  color: #8D5668;
-  font-size: 28px;
-  border-bottom: 2px solid #F49FB6;
-  padding-bottom: 10px;
-  margin-bottom: 30px;
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 .service {
   margin-bottom: 30px;
 }
 
+.testimonials blockquote {
+  background-color: #FBEDED;
+  border-right: 4px solid #F49FB6;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+}
+
 footer {
   background-color: #F2F2F2;
   text-align: center;
   padding: 20px;
-  margin-top: 40px;
+  font-size: 14px;
 }
