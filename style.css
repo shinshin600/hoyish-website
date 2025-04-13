@@ -45,6 +45,12 @@ a {
   font-weight: bold;
 }
 
+.cta.secondary {
+  background-color: #F49FB6;
+  margin-right: 10px;
+}
+
+
 section {
   padding: 60px 20px;
   max-width: 900px;
